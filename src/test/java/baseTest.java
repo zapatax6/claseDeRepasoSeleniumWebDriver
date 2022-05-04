@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class baseTest {
-    private String pathToChromeDriver = "/Users/jxr20920/Downloads/chromedriver";
+    private String pathToChromeDriver = "C:\\Users\\zapat\\Documents\\Repos\\QAML_git_2022\\chromedriver_win32\\chromedriver.exe";
 
     public WebDriver webDriver = getChromeWebDriver();
 
